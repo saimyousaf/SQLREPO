@@ -1,0 +1,33 @@
+/*
+Most visited floor
+Q. You are a facilities manager at a corporate office building, responsible for tracking employee visits, floor preferences, and resource usage within the premises. The office building has multiple floors, each equipped with various resources such as desks, computers, monitors, and other office supplies.
+You have a database table named entries that stores information about employee visits to the office building. Each record in the table represents a visit by an employee and includes details such as their name, the floor they visited, and the resources they used during their visit.
+
+Paste Problem Query in https://www.programiz.com/sql/online-compiler/
+
+*/
+
+DROP TABLE IF EXISTS CUSTOMERS;
+DROP TABLE IF EXISTS ORDERS;
+DROP TABLE IF EXISTS Shippings;
+
+
+-------------------------------------------------
+DROP TABLE IF EXISTS VISIT_ENTRIES;
+CREATE TABLE VISIT_ENTRIES
+(
+  emp_name varchar(100),
+  address varchar(100), 
+  floor INT,
+  resources VARCHAR(100)
+)
+;
+INSERT INTO VISIT_ENTRIES
+VALUES
+('Ankit', 'Bangalore', 1 ,'CPU'),
+('Ankit', 'Bangalore', 1 ,'CPU'),
+('Ankit', 'Bangalore', 2 ,'DESKTOP'),
+('Bikaas', 'Bangalore', 2 ,'DESKTOP'),
+('Bikaas', 'Bangalore', 2 ,'DESKTOP'),
+('Bikaas', 'Bangalore', 1 ,'MONITOR')
+;
