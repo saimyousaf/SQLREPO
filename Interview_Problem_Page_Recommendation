@@ -4,6 +4,7 @@ Problem Statement: You are given two tables- friends and likes. You need to give
 Task: Determine the user IDs and the corresponding page IDs of the pages that have been liked by their friends already, but have not been liked by them. Arrange the final result in the increasing order of the user ID.
 */
 
+Paste Problem Query in https://www.programiz.com/sql/online-compiler/
 
 DROP TABLE IF EXISTS CUSTOMERS;
 DROP TABLE IF EXISTS ORDERS;
